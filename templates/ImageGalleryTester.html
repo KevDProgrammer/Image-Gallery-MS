@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery Tester</title>
+</head>
+<body>
+    <h1>Nier Replicant</h1>
+    <img id="ReplicantGalleryImage" src="images/Nier_Replicant_Photo.jpg" width="800">
+    <button onclick="transmitRequest('first', 'Nier Replicant', 'ReplicantGalleryImage')">Left-most</button>
+    <button onclick="transmitRequest('previous', 'Nier Replicant', 'ReplicantGalleryImage')">Previous</button>
+    <button onclick="transmitRequest('next', 'Nier Replicant', 'ReplicantGalleryImage')">Next</button>
+    <button onclick="transmitRequest('last', 'Nier Replicant', 'ReplicantGalleryImage')">Right-most</button>
+
+    <h1>Nier Automata</h1>
+    <img id="AutomataGalleryImage" src="images/Nier_Automata_Photo.jpg" width="800">
+    <button onclick="transmitRequest('first', 'Nier Automata', 'AutomataGalleryImage')">Left-most</button>
+    <button onclick="transmitRequest('previous', 'Nier Automata', 'AutomataGalleryImage')">Previous</button>
+    <button onclick="transmitRequest('next', 'Nier Automata', 'AutomataGalleryImage')">Next</button>
+    <button onclick="transmitRequest('last', 'Nier Automata', 'AutomataGalleryImage')">Right-most</button>
+
+    <h1>Nier Reincarnation</h1>
+    <img id="ReincarnationGalleryImage" src="images/Nier_Reincarnation_Photo.jpg" width="800">
+    <button onclick="transmitRequest('first', 'Nier Reincarnation', 'ReincarnationGalleryImage')">Left-most</button>
+    <button onclick="transmitRequest('previous', 'Nier Reincarnation', 'ReincarnationGalleryImage')">Previous</button>
+    <button onclick="transmitRequest('next', 'Nier Reincarnation', 'ReincarnationGalleryImage')">Next</button>
+    <button onclick="transmitRequest('last', 'Nier Reincarnation', 'ReincarnationGalleryImage')">Right-most</button>
+
+    <script src="/connection.js"></script>
+</body>
+</html>
